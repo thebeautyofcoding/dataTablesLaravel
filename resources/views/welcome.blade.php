@@ -24,7 +24,7 @@
                 <th>Phone</th>
                 <th>Handy</th>
                 <th>Firma</th>
-                <th>Action</th>
+                
             </tr>
         </thead>
         <tbody>
@@ -60,12 +60,7 @@
             {data: 'telefon', name: 'telefon'},
             {data: 'handy', name: 'handy'},
             {data: 'firma.name', name: 'firma.name'},
-            {
-                data: 'action', 
-                name: 'action', 
-                orderable: true, 
-                searchable: true
-            },
+            
         ]
     });
     
